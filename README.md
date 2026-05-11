@@ -1,2 +1,32 @@
-# centralization-gephi-plugin
-Gephi plugin that calculates graph centralization (0–1 scale)
+# Centralization Plugin for Gephi
+
+## Overview
+This plugin adds a new statistic to Gephi that computes **graph centralization** on a 0–1 scale based on degree centrality.
+
+Centralization measures how concentrated a network is around its most connected node.
+
+## Features
+- Computes graph-level centralization (0 to 1)
+- Works with undirected networks
+- Adds node-level degree values for inspection
+- Integrates into Gephi's Statistics panel
+
+## Installation
+1. Open Gephi
+2. Go to **Tools → Plugins → Downloaded**
+3. Click **Add Plugins**
+4. Select the `.nbm` file
+5. Restart Gephi
+
+## Usage
+1. Import a graph into Gephi
+2. Go to **Statistics panel**
+3. Run **Centralization**
+4. View results in the report window
+
+## Example Results
+- Star network → Centralization ≈ 1.0  
+- Balanced network → Centralization ≈ 0.0  
+
+## Author
+Your Name
