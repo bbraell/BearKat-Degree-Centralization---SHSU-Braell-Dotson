@@ -6,10 +6,15 @@ This plugin adds a new statistic to Gephi that computes **graph centralization**
 Centralization measures how concentrated a network is around its most connected node.
 
 ## Features
-- Computes graph-level centralization (0 to 1)
-- Works with undirected networks
-- Adds node-level degree values for inspection
-- Integrates into Gephi's Statistics panel
+## Supported Statistics
+
+- Degree Centralization
+- Weighted Degree Centralization
+- In-Degree Centralization
+- Out-Degree Centralization
+- Betweenness Centralization
+- Eigenvector Centralization
+- Closeness Centralization
 
 ## Installation
 1. Open Gephi
