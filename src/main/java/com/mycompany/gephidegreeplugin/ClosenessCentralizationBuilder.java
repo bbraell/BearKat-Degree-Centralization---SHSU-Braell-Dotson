@@ -5,20 +5,20 @@ import org.gephi.statistics.spi.StatisticsBuilder;
 import org.openide.util.lookup.ServiceProvider;
 
 @ServiceProvider(service = StatisticsBuilder.class)
-public class CentralizationBuilder implements StatisticsBuilder {
+public class ClosenessCentralizationBuilder implements StatisticsBuilder {
 
-   @Override
-public String getName() {
-    return "Degree Centralization";
-}
+    @Override
+    public String getName() {
+        return "Closeness Centralization";
+    }
 
     @Override
     public Statistics getStatistics() {
-        return new Centralization();
+        return new ClosenessCentralization();
     }
 
     @Override
     public Class<? extends Statistics> getStatisticsClass() {
-        return Centralization.class;
+        return ClosenessCentralization.class;
     }
 }

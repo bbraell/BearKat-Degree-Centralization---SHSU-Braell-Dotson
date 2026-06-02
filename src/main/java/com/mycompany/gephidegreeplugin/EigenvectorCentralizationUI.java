@@ -6,10 +6,7 @@ import org.gephi.statistics.spi.StatisticsUI;
 import org.openide.util.lookup.ServiceProvider;
 
 @ServiceProvider(service = StatisticsUI.class)
-
-public class CentralizationUI implements StatisticsUI {
-
-    private Centralization centralization;
+public class EigenvectorCentralizationUI implements StatisticsUI {
 
     @Override
     public JPanel getSettingsPanel() {
@@ -18,17 +15,15 @@ public class CentralizationUI implements StatisticsUI {
 
     @Override
     public void setup(Statistics statistics) {
-        this.centralization = (Centralization) statistics;
     }
 
     @Override
     public void unsetup() {
-        this.centralization = null;
     }
 
     @Override
     public Class<? extends Statistics> getStatisticsClass() {
-        return Centralization.class;
+        return EigenvectorCentralization.class;
     }
 
     @Override
@@ -36,14 +31,14 @@ public class CentralizationUI implements StatisticsUI {
         return "Done";
     }
 
-  @Override
-public String getDisplayName() {
-    return "Degree Centralization";
-}
+    @Override
+    public String getDisplayName() {
+        return "Eigenvector Centralization";
+    }
 
     @Override
     public String getShortDescription() {
-        return "Measures weighted connections between nodes";
+        return "Measures graph centralization using eigenvector centrality scores.";
     }
 
     @Override
@@ -53,6 +48,6 @@ public String getDisplayName() {
 
     @Override
     public int getPosition() {
-        return 999;
+        return 1004;
     }
 }

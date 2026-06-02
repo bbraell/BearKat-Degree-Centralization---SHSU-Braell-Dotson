@@ -60,6 +60,12 @@
         <artifactId>org-openide-util-lookup</artifactId>
         <version>RELEASE130</version>
     </dependency>
+    
+    <dependency>
+    <groupId>org.gephi</groupId>
+    <artifactId>statistics-plugin</artifactId>
+    <version>0.10.1</version>
+</dependency>
 
     <dependency>
         <groupId>org.gephi</groupId>
