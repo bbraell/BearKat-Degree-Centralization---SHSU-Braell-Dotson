@@ -5,7 +5,7 @@ This plugin adds a new statistic to Gephi that computes **graph centralization**
 
 Centralization measures how concentrated a network is around its most connected node.
 
-## Features
+
 ## Supported Statistics
 
 - Degree Centralization
@@ -26,7 +26,7 @@ Centralization measures how concentrated a network is around its most connected 
 ## Usage
 1. Import a graph into Gephi
 2. Go to **Statistics panel**
-3. Run **Centralization**
+3. Run the Centralization statistic to calculate all supported centralization metrics simultaneously.
 4. View results in the report window
 
 ## Example Results
