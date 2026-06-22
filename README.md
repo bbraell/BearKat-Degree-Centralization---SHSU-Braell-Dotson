@@ -15,6 +15,7 @@ Centralization measures how concentrated a network is around its most connected 
 - Betweenness Centralization
 - Eigenvector Centralization
 - Closeness Centralization
+- Harmonic Closeness Centralization
 
 ## Installation
 1. Open Gephi
@@ -34,4 +35,4 @@ Centralization measures how concentrated a network is around its most connected 
 - Balanced network → Centralization ≈ 0.0  
 
 ## Author
-Your Name
+Braell Dotson
