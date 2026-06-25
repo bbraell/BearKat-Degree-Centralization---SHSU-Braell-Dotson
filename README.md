@@ -35,4 +35,4 @@ Centralization measures how concentrated a network is around its most connected 
 - Balanced network → Centralization ≈ 0.0  
 
 ## Author
-Braell Dotson
+Braell Dotson & Dr. Nate Jones
