@@ -1,9 +1,7 @@
 # Centralization Plugin for Gephi
 
 ## Overview
-This plugin adds a new statistic to Gephi that computes **graph centralization** on a 0–1 scale based on degree centrality.
-
-Centralization measures how concentrated a network is around its most connected node.
+Bearkat Centralization computes multiple graph centralization metrics—including degree, weighted degree, in-degree, out-degree, betweenness, eigenvector, closeness, and harmonic closeness—from a single Statistics report. The plugin also exports node-level values to the Data Laboratory and supports both directed and undirected networks. It includes interpretive notes regarding closeness centralization on disconnected graphs and differences in eigenvector centralization implementations across software packages.
 
 
 ## Supported Statistics
